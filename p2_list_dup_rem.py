@@ -1,0 +1,5 @@
+n = int(input("Enter how many numbers: "))
+org_list = list(map(int, input(f"Enter {n} numbers separated by space: ").split()))
+print("Original List:", org_list)
+dup_rem_list = list(set(org_list))
+print("Duplicates Removed List : ", dup_rem_list)
